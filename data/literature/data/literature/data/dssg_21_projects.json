@@ -1,0 +1,212 @@
+[
+  {
+    "project_id": "P01",
+    "organization": "City Public Health Department",
+    "domain": "healthcare",
+    "summary": "The department wants to reduce missed follow-ups for high-risk patients after emergency visits.",
+    "goal": "Predict which discharged patients need early outreach and prioritize care coordination.",
+    "users": ["case managers", "nurses", "patients"],
+    "constraints": ["limited staff", "sensitive health data", "high false-negative cost"],
+    "human_reference": "Public health case management team"
+  },
+  {
+    "project_id": "P02",
+    "organization": "Regional Homeless Services Agency",
+    "domain": "public services",
+    "summary": "The agency needs better triage of clients for shelter, rental help, and referral services.",
+    "goal": "Match people to the most useful support program quickly and fairly.",
+    "users": ["intake workers", "clients", "program coordinators"],
+    "constraints": ["scarce housing resources", "fairness concerns", "incomplete records"],
+    "human_reference": "Housing navigator team"
+  },
+  {
+    "project_id": "P03",
+    "organization": "County Transportation Authority",
+    "domain": "transportation",
+    "summary": "The authority wants to identify bus routes with chronic delays and low reliability.",
+    "goal": "Recommend service changes that improve reliability and rider experience.",
+    "users": ["planners", "riders", "operations staff"],
+    "constraints": ["budget limits", "time-varying traffic", "equity across neighborhoods"],
+    "human_reference": "Transit planning division"
+  },
+  {
+    "project_id": "P04",
+    "organization": "Wildlife Conservation Network",
+    "domain": "environment",
+    "summary": "The network monitors animal movement patterns and illegal poaching risk across protected areas.",
+    "goal": "Predict high-risk zones and allocate ranger patrols effectively.",
+    "users": ["rangers", "field biologists", "policy staff"],
+    "constraints": ["sparse labels", "remote sensors", "safety risks in the field"],
+    "human_reference": "Conservation operations team"
+  },
+  {
+    "project_id": "P05",
+    "organization": "State Workforce Development Office",
+    "domain": "employment",
+    "summary": "The office wants to connect unemployed residents with training and job placement support.",
+    "goal": "Prioritize interventions that improve long-term employment outcomes.",
+    "users": ["career counselors", "job seekers", "program managers"],
+    "constraints": ["inconsistent attendance", "privacy concerns", "multiple program tracks"],
+    "human_reference": "Workforce analytics team"
+  },
+  {
+    "project_id": "P06",
+    "organization": "School District Equity Office",
+    "domain": "education",
+    "summary": "The district aims to detect early signs of chronic absenteeism and dropout risk.",
+    "goal": "Intervene early with support services before students disengage.",
+    "users": ["counselors", "teachers", "students", "families"],
+    "constraints": ["legal sensitivity", "limited intervention slots", "bias risk"],
+    "human_reference": "Student support services"
+  },
+  {
+    "project_id": "P07",
+    "organization": "Food Security Nonprofit",
+    "domain": "food access",
+    "summary": "The nonprofit wants to optimize food bank inventory and delivery planning.",
+    "goal": "Reduce waste while increasing service to food-insecure households.",
+    "users": ["operations staff", "drivers", "recipient households"],
+    "constraints": ["perishable goods", "volunteer schedules", "regional demand shifts"],
+    "human_reference": "Logistics coordinator"
+  },
+  {
+    "project_id": "P08",
+    "organization": "Urban Flood Response Unit",
+    "domain": "disaster response",
+    "summary": "The city wants faster flood impact estimation after storms.",
+    "goal": "Prioritize neighborhoods and resources during flood events.",
+    "users": ["emergency managers", "residents", "public works"],
+    "constraints": ["rapid changing conditions", "noisy sensor data", "urgent timing"],
+    "human_reference": "Emergency operations center"
+  },
+  {
+    "project_id": "P09",
+    "organization": "Legal Aid Clinic",
+    "domain": "justice",
+    "summary": "The clinic handles many cases but has limited time to identify urgent eviction matters.",
+    "goal": "Triage cases by urgency and likelihood of harm.",
+    "users": ["attorneys", "paralegals", "clients"],
+    "constraints": ["confidential data", "high stakes", "uneven case quality"],
+    "human_reference": "Intake and triage team"
+  },
+  {
+    "project_id": "P10",
+    "organization": "Mental Health Support Network",
+    "domain": "mental health",
+    "summary": "The network wants to direct callers to the right support service based on need and risk.",
+    "goal": "Improve routing and reduce wait times for high-need callers.",
+    "users": ["call center staff", "clients", "therapists"],
+    "constraints": ["safety concerns", "real-time requirements", "language diversity"],
+    "human_reference": "Crisis support supervisors"
+  },
+  {
+    "project_id": "P11",
+    "organization": "Community Water Utility",
+    "domain": "infrastructure",
+    "summary": "The utility wants to detect leaks and service failures earlier.",
+    "goal": "Reduce water loss and improve repair prioritization.",
+    "users": ["maintenance crews", "engineers", "customers"],
+    "constraints": ["sensor gaps", "legacy systems", "field repair coordination"],
+    "human_reference": "Operations engineering team"
+  },
+  {
+    "project_id": "P12",
+    "organization": "Aging Services Agency",
+    "domain": "elder care",
+    "summary": "The agency wants to identify older adults at risk of isolation and unmet service needs.",
+    "goal": "Target outreach and social support effectively.",
+    "users": ["social workers", "older adults", "community volunteers"],
+    "constraints": ["privacy concerns", "hard-to-reach users", "limited outreach staff"],
+    "human_reference": "Senior services case management"
+  },
+  {
+    "project_id": "P13",
+    "organization": "Immigrant Support Center",
+    "domain": "community services",
+    "summary": "The center needs help matching families with the right legal and social support resources.",
+    "goal": "Improve referral quality and reduce dropped cases.",
+    "users": ["case workers", "families", "partners"],
+    "constraints": ["multilingual needs", "unstable documentation", "resource scarcity"],
+    "human_reference": "Client services team"
+  },
+  {
+    "project_id": "P14",
+    "organization": "Clean Energy Planning Office",
+    "domain": "energy",
+    "summary": "The office wants to target energy-efficiency programs to households most likely to benefit.",
+    "goal": "Maximize impact of retrofit and subsidy programs.",
+    "users": ["energy analysts", "policy staff", "households"],
+    "constraints": ["equity goals", "budget caps", "heterogeneous housing stock"],
+    "human_reference": "Energy program planners"
+  },
+  {
+    "project_id": "P15",
+    "organization": "Maternal Health Initiative",
+    "domain": "healthcare",
+    "summary": "The initiative wants to identify prenatal patients who need extra support.",
+    "goal": "Improve maternal outcomes through proactive outreach.",
+    "users": ["nurses", "midwives", "patients"],
+    "constraints": ["sensitive data", "small dataset", "need for interpretability"],
+    "human_reference": "Maternal care coordination team"
+  },
+  {
+    "project_id": "P16",
+    "organization": "Public Library Network",
+    "domain": "civic engagement",
+    "summary": "The network wants to increase use of digital services and community programs.",
+    "goal": "Recommend outreach strategies to improve participation.",
+    "users": ["librarians", "community members", "program staff"],
+    "constraints": ["diverse demographics", "limited outreach budget", "seasonal patterns"],
+    "human_reference": "Community programming team"
+  },
+  {
+    "project_id": "P17",
+    "organization": "Agricultural Extension Service",
+    "domain": "agriculture",
+    "summary": "The service wants to help small farmers anticipate crop stress and pest risk.",
+    "goal": "Provide early warnings and tailored advice.",
+    "users": ["farmers", "agronomists", "extension agents"],
+    "constraints": ["sensor sparsity", "weather variability", "field adoption challenges"],
+    "human_reference": "Extension outreach staff"
+  },
+  {
+    "project_id": "P18",
+    "organization": "Youth Employment Nonprofit",
+    "domain": "youth services",
+    "summary": "The nonprofit wants to improve matching between youth participants and apprenticeships.",
+    "goal": "Increase placement success and retention.",
+    "users": ["youth mentors", "participants", "employers"],
+    "constraints": ["incomplete resumes", "changing employer demand", "support needs"],
+    "human_reference": "Program placement team"
+  },
+  {
+    "project_id": "P19",
+    "organization": "Urban Air Quality Lab",
+    "domain": "environmental health",
+    "summary": "The lab wants to understand when and where pollution exposure harms vulnerable residents most.",
+    "goal": "Identify exposure hotspots and inform mitigation.",
+    "users": ["scientists", "policy makers", "residents"],
+    "constraints": ["noisy measurements", "spatial variation", "policy translation"],
+    "human_reference": "Environmental monitoring team"
+  },
+  {
+    "project_id": "P20",
+    "organization": "Food and Nutrition Program",
+    "domain": "nutrition",
+    "summary": "The program wants to improve outreach to families eligible for nutrition support.",
+    "goal": "Increase enrollment and retention in benefits programs.",
+    "users": ["case workers", "families", "administrators"],
+    "constraints": ["documentation barriers", "language barriers", "low awareness"],
+    "human_reference": "Benefits outreach office"
+  },
+  {
+    "project_id": "P21",
+    "organization": "Community Safety Partnership",
+    "domain": "public safety",
+    "summary": "The partnership wants to allocate prevention resources to neighborhoods with rising risk indicators.",
+    "goal": "Support non-punitive interventions based on early warning signals.",
+    "users": ["community coordinators", "residents", "city partners"],
+    "constraints": ["fairness concerns", "sparse crime labels", "high scrutiny"],
+    "human_reference": "Prevention strategy team"
+  }
+]
