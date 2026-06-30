@@ -1,0 +1,5 @@
+Base paper: Towards Automated Scoping of AI for Social Good Projects.
+Dataset: 21 project summaries.
+Evaluation: appropriateness, thoroughness, feasibility, expected effectiveness.
+Goal: retrieval-grounded Claude workflow for AI4SG scoping.
+Use human review for final judgment.
