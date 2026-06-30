@@ -1,0 +1,6 @@
+anthropic>=0.34.0
+python-dotenv>=1.0.1
+pandas>=2.2.2
+tqdm>=4.66.4
+numpy>=1.26.4
+scikit-learn>=1.5.1
