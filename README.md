@@ -54,5 +54,6 @@ https://docs.google.com/document/d/1SnNXTqwQd5SgB85DpfgDvEKJ0bLL65K7c4pd1Y1pFsI/
 
 Goal was to publish a paper based on research project in IEEE
 
+<img width="2048" height="2048" alt="image" src="https://github.com/user-attachments/assets/9fe99844-ea7e-4131-974a-dbf9e74f7ac8" />
 
  
