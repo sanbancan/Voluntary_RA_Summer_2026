@@ -21,6 +21,35 @@ https://docs.google.com/document/d/19dj4ZcBqOKm8PJSfcem4PqpsEWrhERfEIHHZTo9o6do/
 
 https://www.irjet.net/archives/V8/i7/IRJET-V8I7665.pdf
 
+
+# Claude-Guided Workflow Automation for AI for Social Good Project Scoping
+
+End-to-end monorepo for a retrieval-grounded Claude workflow that scopes AI for social good projects.
+
+## What it does
+- Loads a fixed 21-project dataset.
+- Retrieves relevant literature/context.
+- Generates background, challenges, methods, and a grounded proposal.
+- Evaluates outputs on 4 rubric dimensions.
+- Exports JSONL + CSV outputs.
+
+## Core research basis
+- Towards Automated Scoping of AI for Social Good Projects.
+- Claude Messages API + Python SDK.
+- Claude Projects RAG.
+
+## Setup
+1. Create venv.
+2. `pip install -r requirements.txt`
+3. Copy `.env.example` to `.env`
+4. Run `python -m src.run_experiment`
+
+## Outputs
+- `outputs/proposals.jsonl`
+- `outputs/scores.csv`
+
+## Notes
+This is a research/workshop starter, not a production deployment.
 https://docs.google.com/document/d/1SnNXTqwQd5SgB85DpfgDvEKJ0bLL65K7c4pd1Y1pFsI/edit?tab=t.0
 
 Goal was to publish a paper based on research project in IEEE
